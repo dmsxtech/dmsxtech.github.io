@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <h1>
+          <a class="post-link front-post-title" href="{{ post.url | relative_url }}"><img class="front-post-title-img" src="/assets/images/posts_images/readmore-normal.png">
+            {{ post.title | escape }}
+          </a>
+        </h1>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta"><i>Submitted by: <b>{{ post.author }}</b> on <b>{{ post.date | date: date_format }} </b> </i></span>
+        
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <hr><br>
+
+    <p class="feed-subscribe">
+      <a href="{{ 'feed.xml' | relative_url }}">
+        <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span><img class="subscribe-btn" src="{{ site.url }}/assets/images/posts_images/btn-subscribe.png"></span>
+      </a>
+    </p>
+  {%- endif -%}
+
+</div>

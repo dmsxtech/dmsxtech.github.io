@@ -1,0 +1,126 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+
+.site-header, .site-title, .footer-heading, .footer-col{
+  color: #000;
+  background-color: #c6940d;
+}
+
+.site-footer{
+    color: #000;
+    background-color: #c6940d;
+}
+
+a, a:visited{
+    color: #000;
+}
+
+a:hover, .page-class:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #2b88b8;
+}
+
+
+.img-logo{
+    float: left;
+    height: 70px;
+}
+
+    
+#thatsuspng{
+    height: 89px;
+    float: left;
+    margin-right: 10px;
+}
+
+#favicon{
+    height: 100px;
+    float: left;
+    margin-right: 30px;
+}
+
+.page-content{
+    background-image: url(/assets/images/tiles.jpg)
+}
+
+.post-article-images-left{
+    float: left;
+    width: 120px;
+    margin: 10px;
+}
+
+
+.post-article-images-right{
+    float: right;
+    width: 120px;
+    margin: 10px;
+}
+
+.post-read-more{
+    float: center;
+    width: 200px;
+    margin: 10px;
+}
+
+
+.post-article-images-left-large{
+    float: left;
+    width: 250px;
+    margin: 10px;
+}
+
+.post-article-images-right-large{
+    float: right;
+    width: 250px;
+    margin: 10px;
+}
+.front-post-title{
+    background-color: #f0de8a;
+    padding-left: 10px;
+}
+
+.front-post-title:hover{
+    color:#f0de8a;
+}
+
+.front-post-title-img{
+    float: right;
+    width: 110px;
+}
+
+.subscribe-btn, .email-btn{
+    float: left;
+    height: 36px;
+}
+
+.back-btn{
+    height: 36px;
+}
+
+.email-link{
+    color:#f5d900;
+    background-color: #2b88b8;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.govisit{
+    float: left;
+    height: 25px;
+}
+
+.related-articles{
+    text-align: left;
+    list-style: none;
+}
+.intro{
+    color: #c6940d;
+    background-color: #2b88b8;
+    font-size: 1.2em;
+    
+}
