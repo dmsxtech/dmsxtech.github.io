@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tech is Supposed to Stretch Time"
-author: Techenthusia
+author: Nostr@dmsX
 topic: opinion
 excerpt_separator: <!--more-->
 ---

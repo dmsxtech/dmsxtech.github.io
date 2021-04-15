@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Being Mindful of Technology: Checklist on When to Upgrade"
-author: TechEnthusia
+author: Nostr@dmsX
 topic: opinion
 excerpt_separator: <!--more-->
 ---
