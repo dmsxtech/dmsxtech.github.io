@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: DMSX TECH - Blog
+title: DMSX TECH - Official Site
 email: nostrATdmsxDOTtech
 description: >- # this means to ignore newlines until "baseurl:"
-        This is the official blog of DMSX TECH. 
+        This is the official website of DMSX TECH. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dmsxtech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://dmsx.tech" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dmsxtech
 github_username:  dmsxtech
 
