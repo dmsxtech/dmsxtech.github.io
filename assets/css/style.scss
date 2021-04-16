@@ -45,9 +45,6 @@ a:hover, .page-class:hover{
 }
 
 .page-content{
-//   background-image: url("{{ site.url }}/assets/images/techbackground.jpg"); 
-//   background-repeat: repeat-y;
-//   background-size: auto;
      color: white;
 }
 
@@ -69,23 +66,6 @@ a:hover, .page-class:hover{
     width: 200px;
     margin: 10px;
 }
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-}
-
 
 .post-article-images-left-large{
     float: left;
@@ -116,7 +96,21 @@ video#bgvid {
     float: left;
     height: 36px;
 }
-
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
 .back-btn{
     height: 36px;
 }
@@ -132,22 +126,6 @@ video#bgvid {
     float: left;
     height: 25px;
 }
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-}
 .related-articles{
     text-align: left;
     list-style: none;
@@ -156,23 +134,5 @@ video#bgvid {
     color: #c6940d;
     background-color: #596faf;
     font-size: 1.2em;
-    
-}
-
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
 }
 
