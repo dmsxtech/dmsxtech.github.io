@@ -20,7 +20,7 @@ layout: default
           </a>
         </h1>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta"><i>Submitted by: <b>{{ post.author }}</b> on <b>{{ post.date | date: date_format }} </b> </i></span>
+	<!--  <span class="post-meta"><i>Submitted by: <b>{{ post.author }}</b> on <b>{{ post.date | date: date_format }} </b> </i></span> -->
         
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
