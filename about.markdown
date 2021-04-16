@@ -9,7 +9,7 @@ permalink: /about/
 
 ### This Blog's Ambition
 
-* To curate posts of mindful tech enthusiats
+* To curate posts of mindful tech enthusiasts
 * To provide a healthy learning environment where tech enthusiasts remain relevant
 * To advocate the conscientious use of technology
 
