@@ -2,7 +2,8 @@
 layout: home
 ---
 
-<img id="favicon" src="https://dmsxtech.github.io/favicon.png"/><span class="techenthu">DMSX TECH.</span> are technology enthusiasts. Aside from considering technology as vital, we explore how we can optimize their given benefits in our lives. DMSX TECH supports and uses open source projects. Welcome to our site!
+<img id="favicon" src="https://dmsxtech.github.io/favicon.png"/>DMSX TECH considers technology as a means to reach possibilities and optimize opportunities. We take your ideas, passion, and goals ... synthesize them and create products that provide value to your company and customers. We do this using the power of open source solutions and cutting-edge, sustainable practicees. Welcome.
+
 
 <br>
 <hr>
