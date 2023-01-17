@@ -23,7 +23,7 @@ email: nostrATdmsxDOTtech
 description: >- # this means to ignore newlines until "baseurl:"
         This is the official website of DMSX TECH. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dmsx.tech" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://dmsx.tech" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dmsxtech
 github_username:  dmsxtech
 
